@@ -3,13 +3,6 @@ export default () => {
 
     const template = 
     `
-    <header id="text-ops">
-        <h1>
-            ESTEJA POR DENTRO DAS <br> 
-            NOVIDADES DO MUNDO  <br>
-            COM O FREIZEIT   
-        </h1>
-    </header>
     <div class="novidades-">
         <div>
             <h1 class="tiln">
