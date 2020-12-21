@@ -114,3 +114,15 @@ a {
     margin-left: 600px;
     margin-top: -130px;
 }
+#Contato {
+    width: 1049px;
+    height: 70px;
+    background-color: #2b2b2b;
+    margin-left: 300px;
+    font-family: Arial;
+    color: rgb(109, 109, 109);
+}
+#text-Contato {
+    padding-top: 30px;
+    margin-left: 150px;
+}
