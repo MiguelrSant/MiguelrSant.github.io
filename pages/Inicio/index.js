@@ -26,7 +26,12 @@ export default () => {
         </div>
         <div class="imgs" id="imgfree">
         </div>
-        <style> #imgfree { background-image: url(https://document-export.canva.com/rOTTU/DAEQ-wrOTTU/10/thumbnail/0ird2oeehM4jCP8RvMf49Q-0001-14685902792.png);} </style>
+        <style> 
+        #imgfree { 
+            background-image: url(https://raw.githubusercontent.com/MiguelrSant/MiguelrSant.github.io/main/IMG/Free-Fire3.png);
+            border-radius: 40px
+        } 
+        </style>
     </div>  
     <br>
     <div class="novidades-">
