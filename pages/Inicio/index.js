@@ -25,7 +25,7 @@ export default () => {
             </p>
         </div>
         <div class="imgs">
-            <img scr="../IMG/Free-Fire.png">
+            <img scr="./IMG/Free-Fire.png">
         </div>
     </div>  
     <br>
