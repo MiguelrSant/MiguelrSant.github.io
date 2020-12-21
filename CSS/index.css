@@ -1,0 +1,111 @@
+
+ body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: rgb(196, 194, 194);
+}
+img {
+    -webkit-touch-callout: none;  
+    -webkit-user-select: none;    
+    -khtml-user-select: none;     
+    -moz-user-select: none;       
+    -ms-user-select: none;       
+}
+a {
+    text-decoration:none; 
+    color: black;
+}
+li {
+    font-family:  Helvetica, Arial, sans-serif;
+    -webkit-touch-callout: none;  
+    -webkit-user-select: none;    
+    -khtml-user-select: none;     
+    -moz-user-select: none;       
+    -ms-user-select: none;     
+}
+.menu_principal {
+    background-color: #252323;
+    width: 1366px;
+    height: 70px;
+}
+.conteudo {
+    background-color: #252323;
+    height: 70px;
+    width: 800px;
+    margin-left: 265px;
+}
+.logo {
+    margin-top: 15px;
+}
+.redes_sociais {
+    margin-left: 880px;
+    margin-top: -65px;
+}
+.redes_sociais ul li {
+    margin-left: 15px;
+    display: inline-block;
+    list-style: none;
+}
+.header_1 {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    padding-top: 5px;
+    border-bottom: 2px solid #999797;
+}
+.op ul li:hover {
+    color: #00bac6;
+    border-bottom: 2px solid #00bac6;
+}
+.op ul li a:hover {
+    color: #00bac6;
+    border-bottom: 2px solid #00bac6;
+}  
+.op ul li {  
+    margin-left: 10px;
+    display: inline-block;
+    list-style: none;
+    margin-top: 7px;
+    cursor: pointer;
+}
+.op {
+    margin-left: 280px;
+}
+main#conteudo {
+    width: 1000px;
+    height: 450px;
+    margin-left: 160px  ;
+    margin-top: 20px;
+}
+div#dicas1 {
+    width: 400px;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(156, 156, 156);
+    border-style: solid;
+    border-width: 1px;
+}
+div#imgn1 {
+    width: 550px;
+    height: 420px;
+    margin-left: 420px;
+    margin-top: -430px
+}
+
+
+p#td1 {
+    font-family:fantasy;
+    font-size:22pt ;
+    padding-top: 150px;
+    margin-left: 30px;
+    color: rgb(214, 1, 1);
+}
+img#imgd1 {
+    border-radius: 10px;
+}
+p#pn1 {
+    font-size: 10pt Arial;
+    margin-left: 10px;
+    margin-top: 50px;
+}

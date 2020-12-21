@@ -2,7 +2,7 @@ export default () => {
     const container = document.createElement('div');
 
     const template = `
-    <p>Ola a todos</p>
+    <p>Ola a </p>
     `;
 
     container.innerHTML = template
