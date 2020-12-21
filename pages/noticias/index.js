@@ -7,6 +7,9 @@ export default () => {
         #cont {
             margin-top: 153px;
         }
+        #text-Contato {
+            margin-top: 173px;
+        }
     </style>
     <div class="novidades-">
         <div>
