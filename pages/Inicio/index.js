@@ -28,7 +28,7 @@ export default () => {
         </div>
         <style> 
         #imgfree { 
-            background-image: url(https://raw.githubusercontent.com/MiguelrSant/MiguelrSant.github.io/main/IMG/Free-Fire3.png);
+            background-image: url(https://raw.githubusercontent.com/MiguelrSant/IMGO/main/FREIZEIT/Noticias/Free-Fire%20.png?token=AR6INPPN3IVM72UVPQPFFCK74EF4I);
             border-radius: 40px
         } 
         </style>
