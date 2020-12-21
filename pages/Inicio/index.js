@@ -24,9 +24,9 @@ export default () => {
                 08 de Abril, acesse: Notas da atualização do Free Fire em Abril
             </p>
         </div>
-        <div class="imgs">
-            <img scr="https://document-export.canva.com/rOTTU/DAEQ-wrOTTU/10/thumbnail/0ird2oeehM4jCP8RvMf49Q-0001-14685902792.png">
+        <div class="imgs" id="imgfree">
         </div>
+        <style> #imgfree { background-image: url(https://document-export.canva.com/rOTTU/DAEQ-wrOTTU/10/thumbnail/0ird2oeehM4jCP8RvMf49Q-0001-14685902792.png);} </style>
     </div>  
     <br>
     <div class="novidades-">
@@ -51,7 +51,7 @@ export default () => {
             </p>
         </div>
         <div class="imgs">
-            <img scr="">
+            
         </div>
     </div>  
     <br>
@@ -78,7 +78,7 @@ export default () => {
             </p>
         </div>
         <div class="imgs">
-            <img scr="">
+            
         </div>
     </div> 
     <br> 
@@ -104,7 +104,7 @@ export default () => {
             </p>
         </div>
         <div class="imgs">
-            <img scr="">
+            
         </div>
     </div> 
     <br> 
@@ -130,7 +130,7 @@ export default () => {
             </p>
         </div>
         <div class="imgs">
-            <img scr="">
+            
         </div>
     </div>  
     <br>
@@ -156,7 +156,7 @@ export default () => {
             </p>
         </div>
         <div class="imgs">
-            <img scr="">
+            
         </div>
     </div>  
     `;
