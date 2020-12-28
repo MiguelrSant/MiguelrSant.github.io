@@ -5,7 +5,7 @@ export default () => {
     `
     <style>
         #cont {
-            margin-top: 110px;
+            margin-top: 115px;
         }
     </style>
     <div class="novidades-">
