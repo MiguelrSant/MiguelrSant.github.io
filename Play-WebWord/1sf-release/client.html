@@ -1,20 +1,78 @@
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title> WebWord </title>
-        <style>
-            body {
-                width: 100%;
-                height: 100%;
-            }
-            #munu-above {
-                
-            }
-        </style>
-    </head>
-    <body>
-        <header id="menu-above">
-
-        </header>
-    </body>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebWord</title>
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/MiguelrSant/IMGO/main/WebWord/Img-Logo.png " type="image/x-icon">
+    <style>
+        body {
+            width: 100%;
+            height: 100%;
+            margin: 0 auto;
+        }
+        #menu-above {
+          height: 80px;
+          width: 1366px;
+          position: fixed;
+          background-color: #333333;  
+        }
+        #img-Logo {
+            width: 60px;
+            height: 60px;
+            margin-left: 40px;
+            margin-top: 10px;
+        }
+        #pages {
+            margin-left: 650px;
+            margin-top: -62px;
+        }
+        #pages ul li {
+            display: inline-block;
+            padding: 7px;
+            font-family: Arial;
+            text-transform: uppercase;
+        }
+        #pages ul li :hover {
+            color: rgb(50, 153, 238);
+            border-bottom: 2px solid rgb(50, 153, 238);     
+            padding-bottom: 30px;
+        }
+        #pages ul li a {
+            text-decoration: none;
+            color: rgb(148, 148, 148);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <main id="menu-above">
+            <div id="img-Logo">
+                  <a href="#Inicio">
+                    <img src="https://raw.githubusercontent.com/MiguelrSant/IMGO/main/WebWord/Img-Logo.png " >
+                </a>
+            </div>
+            <div id="pages">
+                <ul>
+                    <li>
+                        <a href="#Noticias">
+                            Noticias
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#Tecnologia">
+                            Tecnologia
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#Sobre">
+                            Sobre Nós
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </main>
+    </header>
+    <script>window.location.replace ('#Inicio')</script>
+</body>
 </html>
