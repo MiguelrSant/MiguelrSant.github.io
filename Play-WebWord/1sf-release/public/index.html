@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebWord</title>
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/MiguelrSant/IMGO/main/WebWord/Img-Logo.png " type="image/x-icon">
+    <link rel="stylesheet" href="./dicstec.css">
+    <style>
+        body {
+            width: 100%;
+            height: 100%;
+            margin: 0 auto;
+        }
+        #menu-above {
+          position: fixed;
+          height: 80px;
+          width: 100%;
+          position: fixed;
+          background-color: #333333;  
+          margin-top: -120px;
+        }
+        #img-Logo {
+            width: 60px;
+            height: 60px;
+            margin-left: 4%;
+            margin-top: 10px;
+        }
+        #pages {
+            margin-left: 52%;
+            margin-top: -62px;
+        }
+        #pages ul li {
+            display: inline-block;
+            padding: 7px;
+            font-family: Arial;
+            text-transform: uppercase;
+        }
+        #pages ul li :hover {
+            color: rgb(50, 153, 238);
+            border-bottom: 2px solid rgb(50, 153, 238);     
+            padding-bottom: 30px;
+        }
+        #pages ul li a {
+            text-decoration: none;
+            color: rgb(148, 148, 148);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <main id="menu-above">
+            <div id="img-Logo">
+                <a href="#Inicio">
+                    <img src="https://raw.githubusercontent.com/MiguelrSant/IMGO/main/WebWord/Img-Logo.png " >
+                </a>
+            </div>
+            <div id="pages">
+                <ul>
+                    <li>
+                        <a href="#Noticias">
+                            Noticias
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#Tecnologia">
+                            Tecnologia
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#Sobre">
+                            Sobre Nós
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </main>
+    </header>
+    <header>
+        <main id="dicastec">
+            <ul>
+                <li>
+                    <div class="dicastec1">
+                        <div class="div-titulo">
+                            <a href="#Tecnologia/AntiVirus">
+                                Defesa de virus
+                            </a>                            
+                        </div>
+                        <img src="https://raw.githubusercontent.com/MiguelrSant/IMGO/main/WebWord/insecto.png" class="imgnot1">
+                        <p class="descripttec">
+                            Na internet de hoje em dia é muto  <br>
+                            comum as pessoas pegarem vírus mas <br>
+                            é muito difícil de se defender e é <br>
+                            isso que nós vamos ensinar a você
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="dicastec1">
+                        <div class="div-titulo" style="margin-left: 77px;">
+                            <a href="#Tecnologia/HospedagemDeSite">
+                                Hospedagem de Site
+                            </a>                            
+                        </div>
+                        <img src="https://raw.githubusercontent.com/MiguelrSant/IMGO/main/WebWord/Hospedagem.png" class="imgnot1">
+                        <p class="descripttec">
+                            Você provavelmente já pensou em ter  <br>
+                            Um Site  na internet mais não sabe a <br>
+                            onde Hospedar, nos vamos dar  algumas<br>
+                            Dicas para você saber o que fazer                            
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="dicastec1">
+                        <div class="div-titulo" style="margin-left: 40px;">
+                            <a href="#Tecnologia/LinguagemDeProgramacao">
+                                Linguagens de programação
+                            </a>
+                        </div>
+                        <img src="https://raw.githubusercontent.com/MiguelrSant/IMGO/main/WebWord/Linguagem-de-programacao.png" class="imgnot1">
+                        <p class="descripttec">
+                            Você quer começar a programar mas não  <br>
+                            Sabe Qual linguagem escolher isso é  <br>
+                            uma dúvida comum mais vamos ajudar você<br>
+                            a escolher uma linguagem que você goste                             
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </main>
+    </header>
+    <script>window.location.replace('#Inicio')</script>
+</body>
+</html>
