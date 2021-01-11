@@ -1,0 +1,23 @@
+{
+  "name": "webword",
+  "version": "1.0.0",
+  "description": "Projeto WebWord é um projeto de teste.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiguelrSant/WebWord.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MiguelrSant/WebWord/issues"
+  },
+  "homepage": "https://github.com/MiguelrSant/WebWord#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
