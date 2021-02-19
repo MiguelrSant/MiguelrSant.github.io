@@ -351,6 +351,7 @@ header {
 .navbar {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 5px 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -360,6 +361,10 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.navbar li a {
+  font-size: 14px;
 }
 
 .logo {
