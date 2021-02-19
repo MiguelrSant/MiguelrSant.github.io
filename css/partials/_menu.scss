@@ -2,9 +2,8 @@ header{
     width: 100%;
     height: 35px;
 
-    background-color: #1a1a1a;
-
-    padding: 4px 10px;
+    background-color: #111111cc;
+    backdrop-filter: blur(20px);
     position: fixed;
     top: 0;
     z-index: 999;
@@ -24,6 +23,7 @@ header{
     height: 25px;
     border-radius: 10px;
     text-align: center;
+    margin-top: -2px;
 }
 
 .hamburguer {
@@ -72,6 +72,7 @@ header{
 }
 
 .menu{
+    padding: 2.5px;
     list-style: none;
 
     display: flex;
@@ -82,7 +83,7 @@ header{
 
         a{
             display: block;
-            color: #555;
+            color: rgb(133, 131, 131);
             transition: .7s ease;
             text-transform: uppercase;
             font-family: 'Sriracha', cursive;

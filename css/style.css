@@ -314,7 +314,7 @@
 body {
   width: 100%;
   height: 100vh;
-  background-color: black;
+  background-color: white;
 }
 
 img, svg {
@@ -340,8 +340,9 @@ p {
 header {
   width: 100%;
   height: 35px;
-  background-color: #1a1a1a;
-  padding: 4px 10px;
+  background-color: #111111cc;
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
   position: fixed;
   top: 0;
   z-index: 999;
@@ -366,6 +367,7 @@ header {
   height: 25px;
   border-radius: 10px;
   text-align: center;
+  margin-top: -2px;
 }
 
 .hamburguer {
@@ -406,6 +408,7 @@ header {
 }
 
 .menu {
+  padding: 2.5px;
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -421,7 +424,7 @@ header {
 
 .menu li a {
   display: block;
-  color: #555;
+  color: #858383;
   -webkit-transition: .7s ease;
   transition: .7s ease;
   text-transform: uppercase;
