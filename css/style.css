@@ -349,6 +349,11 @@ header {
 }
 
 .navbar {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   max-width: 1200px;
   margin: 0 auto;
   padding: 5px 10px;
@@ -363,7 +368,7 @@ header {
           align-items: center;
 }
 
-.navbar li a {
+.navbar li a, .navbar li p {
   font-size: 14px;
 }
 
@@ -411,6 +416,16 @@ header {
   transition: .8s ease;
 }
 
+.pag-sem-link {
+  cursor: default;
+  display: block;
+  color: #858383;
+  -webkit-transition: .7s ease;
+  transition: .7s ease;
+  text-transform: uppercase;
+  font-family: 'Sriracha', cursive;
+}
+
 .menu {
   list-style: none;
   display: -webkit-box;
@@ -425,7 +440,7 @@ header {
   margin-left: 18px;
 }
 
-.menu li a {
+.menu li .nav-link {
   display: block;
   color: #858383;
   -webkit-transition: .7s ease;
@@ -434,7 +449,7 @@ header {
   font-family: 'Sriracha', cursive;
 }
 
-.menu li a:hover {
+.menu li .nav-link:hover {
   color: #cfcdcd;
 }
 
