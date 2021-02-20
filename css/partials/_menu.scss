@@ -1,46 +1,65 @@
-header{
+.header{
     width: 100%;
-    height: 35px;
+    height: 30px;
 
     background-color: #111111cc;
     backdrop-filter: blur(20px);
+
     position: fixed;
     top: 0;
-    z-index: 999;
+    z-index: 999;;
 }
 
 .navbar{
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-      -khtml-user-select: none;
-        -moz-user-select: none;
-          -ms-user-select: none;
-            user-select: none;
+
     max-width: 1200px;
-    margin: 0 auto;
+    height: 30px;
+    margin: auto;
     padding: 5px 10px;
 
     display: flex;
+    align-items: center;
     justify-content: space-between;
+}
+
+.nav-list-desktop{
+    list-style: none;
+
+    display: flex;
     align-items: center;
 
     li{
-        a, p{
-            font-size: 14px;
+        margin-left: 18px;
+        font-size: 12px;
+
+        .nav-link{
+            display: block;
+            color: rgb(192, 192, 192);
+
+            transition: .7s ease;
+
+            font-family: 'Montserrat', sans-serif;
+
+            &:hover{
+                color: rgb(240, 235, 235);
+            }
+        }
+        .nav-p{
+            cursor: default;
+            display: block;
+            color: rgb(192, 192, 192);
+
+            transition: .7s ease;
+
+            font-family: 'Montserrat', sans-serif;
+            font-size: 12px;    
         }
     }
 }
 
-.logo{
+.hamburguer {
     width: 25px;
     height: 25px;
-    border-radius: 10px;
-    text-align: center;
-}
-
-.hamburguer {
-    width: 30px;
-    height: 30px;
 
     background-color: transparent;
     border-radius: 5px;
@@ -83,45 +102,13 @@ header{
     }
 }
 
-.pag-sem-link{
-    cursor: default;
-    display: block;
-    color: rgb(133, 131, 131);
-    transition: .7s ease;
-    text-transform: uppercase;
-    font-family: 'Sriracha', cursive;
-}
-
-.menu{
-    list-style: none;
-
-    display: flex;
-    align-items: center;
-
-    li{
-        margin-left: 18px;
-
-        .nav-link{
-            display: block;
-            color: rgb(133, 131, 131);
-            transition: .7s ease;
-            text-transform: uppercase;
-            font-family: 'Sriracha', cursive;
-
-            &:hover{
-                color: rgb(207, 205, 205);
-            }
-        }
-    }
-}
-
 @media screen and (max-width: 800px) {
     .hamburguer{
         display: block;
         z-index: 999;
     }
 
-    .menu{
+    .nav-list-desktop{
         position: fixed;
         top: 0;
         right: -100%;
@@ -139,7 +126,7 @@ header{
 
         transition: .7s ease;
     }
-    .menu.active {
+    .nav-list-desktop.active {
         right: 0;
     }
 }

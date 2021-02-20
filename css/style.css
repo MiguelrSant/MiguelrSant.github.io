@@ -337,9 +337,9 @@ p {
   line-height: 140%;
 }
 
-header {
+.header {
   width: 100%;
-  height: 35px;
+  height: 30px;
   background-color: #111111cc;
   -webkit-backdrop-filter: blur(20px);
           backdrop-filter: blur(20px);
@@ -349,39 +349,61 @@ header {
 }
 
 .navbar {
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
   max-width: 1200px;
-  margin: 0 auto;
+  height: 30px;
+  margin: auto;
   padding: 5px 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.nav-list-desktop {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-.navbar li a, .navbar li p {
-  font-size: 14px;
+.nav-list-desktop li {
+  margin-left: 18px;
+  font-size: 12px;
 }
 
-.logo {
-  width: 25px;
-  height: 25px;
-  border-radius: 10px;
-  text-align: center;
+.nav-list-desktop li .nav-link {
+  display: block;
+  color: silver;
+  -webkit-transition: .7s ease;
+  transition: .7s ease;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nav-list-desktop li .nav-link:hover {
+  color: #f0ebeb;
+}
+
+.nav-list-desktop li .nav-p {
+  cursor: default;
+  display: block;
+  color: silver;
+  -webkit-transition: .7s ease;
+  transition: .7s ease;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
 }
 
 .hamburguer {
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
   background-color: transparent;
   border-radius: 5px;
   border: 0;
@@ -416,49 +438,12 @@ header {
   transition: .8s ease;
 }
 
-.pag-sem-link {
-  cursor: default;
-  display: block;
-  color: #858383;
-  -webkit-transition: .7s ease;
-  transition: .7s ease;
-  text-transform: uppercase;
-  font-family: 'Sriracha', cursive;
-}
-
-.menu {
-  list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.menu li {
-  margin-left: 18px;
-}
-
-.menu li .nav-link {
-  display: block;
-  color: #858383;
-  -webkit-transition: .7s ease;
-  transition: .7s ease;
-  text-transform: uppercase;
-  font-family: 'Sriracha', cursive;
-}
-
-.menu li .nav-link:hover {
-  color: #cfcdcd;
-}
-
 @media screen and (max-width: 800px) {
   .hamburguer {
     display: block;
     z-index: 999;
   }
-  .menu {
+  .nav-list-desktop {
     position: fixed;
     top: 0;
     right: -100%;
@@ -475,7 +460,7 @@ header {
     -webkit-transition: .7s ease;
     transition: .7s ease;
   }
-  .menu.active {
+  .nav-list-desktop.active {
     right: 0;
   }
 }
