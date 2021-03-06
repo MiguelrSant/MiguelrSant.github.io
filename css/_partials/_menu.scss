@@ -1,0 +1,126 @@
+@mixin responsive(){
+    @media screen and (max-width: 960px){
+        @content;
+    }
+}
+
+.header{
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0px 15px;
+    
+    background-color: rgb(48, 48, 48);
+
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+    @include responsive(){
+        padding: 8px 18px;
+    }
+    
+}
+.nav-menu{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+
+    @include responsive(){
+        display: none;
+    }
+
+    li{
+        padding: 36px 16px;
+        margin-left: 15px;
+    }
+}
+.nav-link{
+    transition: 0.7s ease;
+    &:hover{
+        color: #367DE7;
+    }
+}
+.nav-social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    svg{
+        margin-left: 14px;
+        width: 28px;
+
+        cursor: pointer;
+
+        path, circle{
+            transition: .7s ease;
+        }
+
+        &:hover{
+            path, circle{
+                fill: #d267ff;
+            }
+        }
+    }
+
+    @include responsive(){
+        display: none;
+    }
+}   
+.bx{
+    width: 40px;
+    height: 40px;
+  
+    display: none;
+    position: relative;
+    cursor: pointer;
+
+  
+    &::after{
+      content: '';
+      display: block;
+  
+      position: absolute;
+      top: 33%;
+      left: 12%;
+  
+      width: 75%;
+      height: 2px;
+      border-radius: 2px;
+  
+      background-color: white;
+  
+    }
+    
+    @include responsive(){
+        display: block;
+    }
+
+    &::before{
+      content: '';
+      display: block;
+  
+      position: absolute;
+      top: 57%;
+      left: 12%;
+  
+      width: 75%;
+      height: 2px;
+      border-radius: 2px;
+  
+      background-color: white;
+  
+    }
+  
+  }

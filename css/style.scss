@@ -1,0 +1,28 @@
+*, *::after, *::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+
+    background: linear-gradient(81.55deg, #367DE7 -14.1%, #d267ff 93.91%);
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+@import './_partials/colors';
+
+img, svg{
+    display: block;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(165, 161, 161);
+    font-size: 15px;
+    text-transform: uppercase;
+}
+@import './_partials/leyaut';
+@import './_partials/menu';
+@import './_partials/animations';
