@@ -1,9 +1,3 @@
-@mixin responsive(){
-    @media screen and (max-width: 960px){
-        @content;
-    }
-}
-
 .header{
     width: 100%;
     position: fixed;
