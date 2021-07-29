@@ -44,6 +44,14 @@
 }
 
 .img-photo{
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
     filter: grayscale(100%);
     transition: 2s ease;
     border-radius: 10px;
