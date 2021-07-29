@@ -803,6 +803,18 @@ body {
           flex-direction: row;
 }
 
+.img-photo {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transition: 2s ease;
+  transition: 2s ease;
+}
+
+.img-photo:hover {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+
 .hero {
   height: 90vh;
 }

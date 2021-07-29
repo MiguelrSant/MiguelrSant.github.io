@@ -43,6 +43,15 @@
     flex-direction: row;
 }
 
+.img-photo{
+    filter: grayscale(100%);
+    transition: 2s ease;
+
+    &:hover{
+        filter: grayscale(0);
+    }
+}
+
 .hero{
     height: 90vh;
 }
