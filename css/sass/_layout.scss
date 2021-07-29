@@ -46,6 +46,8 @@
 .img-photo{
     filter: grayscale(100%);
     transition: 2s ease;
+    border-radius: 10px;
+    box-shadow: 10px 8px 5px #15AED4;
 
     &:hover{
         filter: grayscale(0);
