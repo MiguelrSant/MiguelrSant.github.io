@@ -817,16 +817,9 @@ body:hover::-webkit-scrollbar-thumb {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
-  -webkit-transition: 2s ease;
-  transition: 2s ease;
   border-radius: 10px;
-}
-
-.img-photo:hover {
-  -webkit-filter: grayscale(0);
-          filter: grayscale(0);
+  -webkit-filter: grayscale(40%);
+          filter: grayscale(40%);
 }
 
 .hero {
@@ -951,64 +944,5 @@ body:hover::-webkit-scrollbar-thumb {
   max-width: 1200px;
   margin: 0 auto;
   padding: 16px 24px;
-}
-
-#bg-heroline1 {
-  -webkit-animation: linha1 4s linear infinite alternate;
-          animation: linha1 4s linear infinite alternate;
-}
-
-@-webkit-keyframes linha1 {
-  0% {
-    stroke-dasharray: 0 100;
-  }
-  100% {
-    stroke-dasharray: 1000 0;
-  }
-}
-
-@keyframes linha1 {
-  0% {
-    stroke-dasharray: 0 100;
-  }
-  100% {
-    stroke-dasharray: 1000 0;
-  }
-}
-
-@-webkit-keyframes linha2 {
-  0% {
-    stroke-dasharray: 0 100;
-  }
-  100% {
-    stroke-dasharray: 100 0;
-  }
-}
-
-@keyframes linha2 {
-  0% {
-    stroke-dasharray: 0 100;
-  }
-  100% {
-    stroke-dasharray: 100 0;
-  }
-}
-
-@-webkit-keyframes linha3 {
-  0% {
-    stroke-dasharray: 0 100;
-  }
-  100% {
-    stroke-dasharray: 100 0;
-  }
-}
-
-@keyframes linha3 {
-  0% {
-    stroke-dasharray: 0 100;
-  }
-  100% {
-    stroke-dasharray: 100 0;
-  }
 }
 /*# sourceMappingURL=style.css.map */

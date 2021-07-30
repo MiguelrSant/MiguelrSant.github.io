@@ -58,14 +58,10 @@ body:hover::-webkit-scrollbar-thumb {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-
-    filter: grayscale(100%);
-    transition: 2s ease;
+    
     border-radius: 10px;
 
-    &:hover{
-        filter: grayscale(0);
-    }
+    filter: grayscale(40%);
 }
 
 .hero{
@@ -181,48 +177,4 @@ body:hover::-webkit-scrollbar-thumb {
 
     margin: 0 auto;
     padding: 16px 24px;
-}
-
-// ANIMATIONS
-
-#bg-heroline1{
-    //stroke-dasharray: 100 100 !important;
-    animation: linha1 4s linear infinite alternate;
-}
-
-#bg-heroline2{
-    //stroke-dasharray: 50 100 !important;
-   // animation: linha2 1s ease infinite alternate;
-}
-
-#bg-heroline3{
-    //stroke-dasharray: 10 100 !important;
-    //animation: linha3 2s ease infinite alternate;
-}
-
-@keyframes linha1{
-    0%{
-        stroke-dasharray: 0 100;
-    }
-    100%{
-        stroke-dasharray: 1000 0;
-    }
-}
-
-@keyframes linha2{
-    0%{
-        stroke-dasharray: 0 100;
-    }
-    100%{
-        stroke-dasharray: 100 0;
-    }
-}
-
-@keyframes linha3{
-    0%{
-        stroke-dasharray: 0 100;
-    }
-    100%{
-        stroke-dasharray: 100 0;
-    }
 }
