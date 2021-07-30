@@ -748,6 +748,14 @@ body {
   padding-bottom: 128px !important;
 }
 
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body:hover::-webkit-scrollbar-thumb {
+  background: #252424;
+}
+
 .menu {
   width: 100%;
   display: -webkit-box;
@@ -804,13 +812,16 @@ body {
 }
 
 .img-photo {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
   -webkit-transition: 2s ease;
   transition: 2s ease;
   border-radius: 10px;
-  -webkit-box-shadow: 10px 8px 5px #15AED4;
-          box-shadow: 10px 8px 5px #15AED4;
 }
 
 .img-photo:hover {
