@@ -29,11 +29,9 @@ header {
 
 .padding {
   padding: 48px 30px;
-  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid #ABABAB;
-  max-width: 1500px;
   flex-wrap: wrap;
 }
 
