@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 *{
     margin: 0;
@@ -11,6 +10,15 @@ body{
     width: 100%;
     height: 100vh;
     background-color: #F2F2F2;
+}
+
+body::-webkit-scrollbar {
+    width: 6px;
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(192, 192, 192); 
+    border-radius: 20px;       
 }
 
 header{
@@ -35,8 +43,9 @@ header{
     justify-content: space-between;
 
     border-bottom: 1px solid #ABABAB;
+    max-width: 1500px;
+    margin: 0 auto;
 
-    flex-wrap: wrap;
 }
 
 .texto-left{
@@ -44,16 +53,26 @@ header{
 }
 
 .padding h1{
-    font-size: 40px;
-    font-family: 'Anton', sans-serif;;
+    font-size: 50px;
     margin-bottom: 39px;
+    font-family: 'Bebas Neue', cursive;
+    font-style: italic;
 }
 
 .padding p {
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 39px;
     color: #353434;
+    width: 30vw;
+    max-width: 500px;
 }
+
+.link{
+    text-decoration: none;
+    font-weight: bold;
+    color: #1a1a1a;
+}
+
 .projetos a{
     text-decoration: none;
     display: block;
@@ -67,6 +86,7 @@ header{
 
     &:hover{
         opacity: .8;
+        text-decoration: underline;
     }
 }
 
@@ -87,7 +107,7 @@ header{
     height: 52px;
     color: #fff;
 
-    text-align: center;
+    text-align: center;;
     padding: 17px 0px;
 
     border-radius: 10px;
@@ -101,25 +121,38 @@ header{
 }
 
 
+
 footer{
     padding: 10px;
     text-align: center;
-    color: rgb(0, 0, 0);
-    font-size: 10px;
+    font-family: 'Bebas Neue', cursive;
+    color: #1a1a1a;
+    font-size: 12px;
     a{
         text-decoration: none;
-        color: rgb(0, 0, 0);
+        color: black;
+        transition: .3s ease;
+
+        &:hover{
+            opacity: .9;
+        }
     }
 }
 
 @media (max-width: 938px) {
+    .padding{
+        display: block;
+    }
     .padding img{
         margin-top: 39px;
-        width: 80vw;
+        width: 60vw;
     }
     .padding h1{
-        font-size: 30px;
+        font-size: 35px;
         width: 80vw;
+    }
+    .padding p{
+        width: 85vw;
     }
     .projetos a{
         font-size: 20px;
