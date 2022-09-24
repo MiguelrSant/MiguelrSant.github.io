@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
-
 body{
-    width: 100%;
-    height: 100vh;
-    background-color: #F2F2F2;
+    background-color: #1a1a1a;
+    overflow-x: hidden
 }
 
 body::-webkit-scrollbar {
@@ -17,144 +16,255 @@ body::-webkit-scrollbar {
 }
   
 body::-webkit-scrollbar-thumb {
-    background-color: rgb(192, 192, 192); 
+    background-color: rgb(48, 47, 47); 
     border-radius: 20px;       
 }
 
 header{
-    height: 75px;
-    background-color: white;
-    position: relative;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.23);
+    background-color: #141414;
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.308);
+    display: flex;
+    padding: 5px 0px;
+    align-items: center;
+    justify-content: center;
 }
-.logo{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 55px;
-    height: 55px;
+.logo > svg{
+    width: 50px;
+    height: 50px;
 }
-
-.padding{
-    padding: 48px 30px;
-
+section.banner{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
 
-    border-bottom: 1px solid #ABABAB;
-    max-width: 1500px;
+    .text{
+        width: 50%;
+        padding: 90px 50px 0px 50px;
+
+        h1{
+            font-size: 2.5em;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #dddcdd;
+            margin-bottom: 40px;
+        }
+        p{
+            color: #d4c8d6;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 90%;
+            line-height: 27px;
+        }
+        .btn1{
+            display: flex;
+            margin-top: 40px;
+            border: 1px solid #8905aa;
+            box-shadow: 2px 2px 2px #8905aa6e;
+            color: #d4c8d6;
+            font-family: Arial, Helvetica, sans-serif;
+            border-radius: 5px;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            padding: 5px 10px;
+            width: 140px;
+            height: 50px;
+            transition: 1s ease;
+            cursor: pointer;
+            background-color: #8905aa;
+
+            &:hover{
+                background-color: #73048f;
+            }
+        }
+    }
+    .img-section{
+        display: flex; 
+        justify-content: center;
+        width: 50%;
+        padding-right: 30px;
+
+    }
+}
+
+.tecnologias, .projetos{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
     margin: 0 auto;
+    margin-top: 20px;
+    padding: 0px 50px 30px 50px;
+    border-bottom: 6px solid #303030;
+    .part{
+        width: 33.3%;
+        padding: 7px;
+        h4{
+            color: #d4c8d6;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 80%;
+            line-height: 23px;
 
-}
-
-.texto-left{
-    width: 50vw;
-}
-
-.padding h1{
-    font-size: 50px;
-    margin-bottom: 39px;
-    font-family: 'Bebas Neue', cursive;
-    font-style: italic;
-}
-
-.padding p {
-    font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 39px;
-    color: #353434;
-    width: 30vw;
-    max-width: 500px;
-}
-
-.link{
-    text-decoration: none;
-    font-weight: bold;
-    color: #1a1a1a;
-}
-
-.projetos a{
-    text-decoration: none;
-    display: block;
-    padding: 39px 0;
-    font-size: 30px;
-    margin-left: 15px;
-    text-transform: uppercase;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #353434;
-    width: 100px;
-
-    &:hover{
-        opacity: .8;
-        text-decoration: underline;
-    }
-}
-
-.img-right{
-    img{
-        border-radius: 10px;
-    }
-}
-
-
-
-.btn{
-    display: block;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: black;
-    width: 168px;
-    height: 52px;
-    color: #fff;
-
-    text-align: center;;
-    padding: 17px 0px;
-
-    border-radius: 10px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.349);
-
-    transition: .5s ease;
-    &:hover{
-        opacity: .9;
-    }
-
-}
-
-
-
-footer{
-    padding: 10px;
-    text-align: center;
-    font-family: 'Bebas Neue', cursive;
-    color: #1a1a1a;
-    font-size: 12px;
-    a{
-        text-decoration: none;
-        color: black;
-        transition: .3s ease;
-
-        &:hover{
-            opacity: .9;
+            a{
+                text-decoration: none;
+                color: #c995d1;
+            }
+        }
+        .img-tec{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 30px;
+            height: 30px;
+            margin-bottom: 10px;
         }
     }
 }
 
-@media (max-width: 938px) {
-    .padding{
-        display: block;
+section.galeria{
+    width: 100%;
+    max-width: 1440px;
+    height: auto;
+    margin: 0 auto;
+
+}
+div.galerias{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 6px solid #303030;
+}
+div.galeria-text{
+    width: 50%;
+    padding: 80px 50px 30px 50px;
+
+    h1{
+        font-size: 2.7em;
+        margin-bottom: 30px;
+        font-family: 'Bebas Neue', cursive;
+        font-style: italic;
+        color: #8905aa;
+        text-transform: uppercase;
     }
-    .padding img{
-        margin-top: 39px;
-        width: 60vw;
+    p{
+        color: #d4c8d6;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 40px;
+        line-height: 25px;
+
+        a{
+            text-decoration: none;
+            color: #d4c8d6;
+
+        }
     }
-    .padding h1{
-        font-size: 35px;
-        width: 80vw;
+}
+div.galeria-img{
+    width: 50%; 
+    background-blend-mode: darken;
+    box-shadow: inset 0px -10px 25px rgba(0, 0, 0, 0.5), inset 0px 10px 25px rgba(0, 0, 0, 0.5);
+}
+#galeria-img1{
+    background: rgba(0, 0, 0, 0.2) url("../img/Miguel-Angelo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+#galeria-img2{
+    background: rgba(0, 0, 0, 0.2) url("../img/Programacao.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+#galeria-img3{
+    background: rgba(0, 0, 0, 0.2) url("../img/swift-post1-CRED-iStock_metamorworks.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.h2-projetos{
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #d4c8d6;
+}
+
+footer{
+    display: flex;
+    padding: 15px 0px;
+    background-color: #141414;
+    text-align: center;
+    align-items: center;
+    justify-content: center;    
+
+    h2{
+        font-family: Arial, Helvetica, sans-serif;
+        color: #d4c8d6;
+        font-weight: normal;
+
+        a{
+            text-decoration: none;
+            color: #d4c8d6;
+            transition: .8s ease;
+
+            &:hover{
+                color: #8905aa;
+            }
+        }
     }
-    .padding p{
-        width: 85vw;
+}
+
+@media screen and (max-width: 800px){
+    section.banner{
+        flex-direction: column;
+
+        .text{
+            width: 100%;
+            padding: 20px 20px 10px 20px;
+        }
+        .img-section{
+            display: none;
+        }
+
     }
-    .projetos a{
-        font-size: 20px;
+     .tecnologias, .projetos{
+            display: flex;
+            flex-direction: column;
+            padding: 10px 20px 10px 20px;
+            width: 100vw;
+            
+            .part{
+                width: 100%;
+                margin-bottom: 20px;
+
+                h4{
+                    width: 100%;
+                }
+            }
+    }
+
+    .galeria{
+        display: flex;
+        flex-direction: column;
+        #reverse{
+            flex-direction: column-reverse;
+        }
+        .galerias{
+            display: flex;
+            flex-direction: column;
+
+            
+            .galeria-img{
+                height: 450px;
+                width: 100%;
+                border-top: 6px solid #303030;
+            }
+            .galeria-text{
+                width: 100%;
+                padding: 10px 20px 10px 20px;
+            }
+        }
     }
 }
