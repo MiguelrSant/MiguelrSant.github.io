@@ -162,7 +162,7 @@ div.galeria-img {
 }
 
 #galeria-img1 {
-  background: rgba(0, 0, 0, 0.2) url("../img/Miguel-Angelo.png");
+  background: rgba(0, 0, 0, 0.2) url("../img/miguel-Angelo.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
@@ -254,5 +254,10 @@ footer h2 a:hover {
   .galeria .galerias .galeria-text {
     width: 100%;
     padding: 10px 20px 10px 20px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .galeria > .galerias > .galeria-img {
+    height: 250px;
   }
 }/*# sourceMappingURL=style.css.map */

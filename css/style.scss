@@ -166,7 +166,7 @@ div.galeria-img{
     box-shadow: inset 0px -10px 25px rgba(0, 0, 0, 0.5), inset 0px 10px 25px rgba(0, 0, 0, 0.5);
 }
 #galeria-img1{
-    background: rgba(0, 0, 0, 0.2) url("../img/Miguel-Angelo.png");
+    background: rgba(0, 0, 0, 0.2) url("../img/miguel-Angelo.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
@@ -253,9 +253,7 @@ footer{
         }
         .galerias{
             display: flex;
-            flex-direction: column;
-
-            
+            flex-direction: column;      
             .galeria-img{
                 height: 450px;
                 width: 100%;
@@ -266,5 +264,11 @@ footer{
                 padding: 10px 20px 10px 20px;
             }
         }
+    }
+}
+
+@media screen and (max-width: 800px){
+    .galeria > .galerias > .galeria-img {
+        height: 250px;
     }
 }
