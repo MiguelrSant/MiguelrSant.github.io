@@ -299,4 +299,17 @@ footer h2 a:hover {
   .tecnologias .part h4, .projetos .part h4 {
     width: 100%;
   }
+}
+@media screen and (max-width: 400px) {
+  section.galeria #galeria3 {
+    background-image: url("../img/mec.svg");
+    background-position: center center;
+    background-color: rgba(20, 19, 27, 0.6901960784);
+  }
+  section.galeria .galerias {
+    height: 500px;
+  }
+  section.galeria .galerias h3 {
+    font-size: 1.8em;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -337,5 +337,21 @@ footer{
 
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 400px){
+    section.galeria { 
+
+        #galeria3{
+            background-image: url('../img/mec.svg');
+            background-position: center center;
+            background-color: #14131bb0;  
+    
+            }
+        .galerias {
+        height: 500px;
+
+        h3{
+            font-size: 1.8em;
+        }
+    }
+}
 }
