@@ -278,6 +278,11 @@ footer h2 a:hover {
   section.galeria {
     margin-left: -20px;
   }
+  section.galeria #galeria3 {
+    background-image: url("../img/mec.svg");
+    background-position: center center;
+    background-color: rgba(20, 19, 27, 0.6901960784);
+  }
   section.galeria .ul-galeria {
     -moz-columns: 1;
          columns: 1;
@@ -301,11 +306,6 @@ footer h2 a:hover {
   }
 }
 @media screen and (max-width: 400px) {
-  section.galeria #galeria3 {
-    background-image: url("../img/mec.svg");
-    background-position: center center;
-    background-color: rgba(20, 19, 27, 0.6901960784);
-  }
   section.galeria .galerias {
     height: 500px;
   }

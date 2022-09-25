@@ -308,6 +308,12 @@ footer{
     }
     section.galeria {
         margin-left: -20px;
+        #galeria3{
+            background-image: url('../img/mec.svg');
+            background-position: center center;
+            background-color: #14131bb0;  
+    
+            }
         .ul-galeria{
             columns: 1;
         }
@@ -340,12 +346,6 @@ footer{
 @media screen and (max-width: 400px){
     section.galeria { 
 
-        #galeria3{
-            background-image: url('../img/mec.svg');
-            background-position: center center;
-            background-color: #14131bb0;  
-    
-            }
         .galerias {
         height: 500px;
 
