@@ -86,6 +86,10 @@ section.banner .img-section {
   padding-right: 30px;
 }
 
+section.tecnologias {
+  margin-top: 50px;
+}
+
 .tecnologias, .projetos {
   display: flex;
   align-items: center;
@@ -94,7 +98,6 @@ section.banner .img-section {
   margin: 0 auto;
   margin-top: 20px;
   padding: 0px 50px 30px 50px;
-  border-bottom: 6px solid #303030;
 }
 .tecnologias .part, .projetos .part {
   width: 33.3%;
@@ -119,71 +122,116 @@ section.banner .img-section {
   margin-bottom: 10px;
 }
 
+.projetos {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 section.galeria {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  -moz-columns: 2;
+       columns: 2;
   width: 100%;
   max-width: 1440px;
-  height: auto;
   margin: 0 auto;
+  padding: 40px 10px;
+  padding-bottom: 0px;
+  margin-top: 50px;
 }
-
-div.galerias {
-  display: flex;
-  justify-content: space-between;
-  border-bottom: 6px solid #303030;
+section.galeria .ul-galeria {
+  -moz-columns: 2;
+       columns: 2;
+  list-style: none;
 }
-
-div.galeria-text {
-  width: 50%;
-  padding: 80px 50px 30px 50px;
-}
-div.galeria-text h1 {
-  font-size: 2.7em;
-  margin-bottom: 30px;
-  font-family: "Bebas Neue", cursive;
-  font-style: italic;
-  color: #8905aa;
-  text-transform: uppercase;
-}
-div.galeria-text p {
-  color: #d4c8d6;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-bottom: 40px;
-  line-height: 25px;
-}
-div.galeria-text p a {
-  text-decoration: none;
-  color: #d4c8d6;
-}
-
-div.galeria-img {
-  width: 50%;
+section.galeria .galerias {
+  width: 90%;
+  height: 800px;
+  background-color: rgba(20, 19, 27, 0);
+  margin-bottom: 80px;
+  margin-left: 40px;
   background-blend-mode: darken;
-  box-shadow: inset 0px -10px 25px rgba(0, 0, 0, 0.5), inset 0px 10px 25px rgba(0, 0, 0, 0.5);
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 15px;
+  transition: 0.5s ease;
 }
-
-#galeria-img1 {
-  background: rgba(0, 0, 0, 0.2) url("../img/miguel-angelo.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top center;
+section.galeria .galerias h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(168, 164, 164);
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  width: 90%;
 }
-
-#galeria-img2 {
-  background: rgba(0, 0, 0, 0.2) url("../img/Programacao.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top center;
+section.galeria .galerias h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.3em;
+  color: #ccc;
 }
-
-#galeria-img3 {
-  background: rgba(0, 0, 0, 0.2) url("../img/swift-post1-CRED-iStock_metamorworks.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+section.galeria #galeria1 {
+  background-image: url("../img/pexels-yan-krukov-9072208.jpg");
   background-position: center center;
+  background-size: cover;
+  background-color: rgba(20, 19, 27, 0.4941176471);
+}
+section.galeria #galeria1:hover {
+  background-color: rgba(20, 19, 27, 0.6509803922);
+}
+section.galeria #galeria1:hover h1 {
+  color: #ccc;
+}
+section.galeria #galeria1:hover h3 {
+  color: white;
+}
+section.galeria #galeria2 {
+  background-image: url("../img/pexels-cottonbro-6153741.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+section.galeria #galeria2:hover {
+  background-color: rgba(20, 19, 27, 0.8274509804);
+}
+section.galeria #galeria2:hover h1 {
+  color: #ccc;
+}
+section.galeria #galeria2:hover h3 {
+  color: white;
+}
+section.galeria #galeria3 {
+  background-image: url("../img/pexels-junior-teixeira-2047905.jpg");
+  background-position: center center;
+}
+section.galeria #galeria3:hover {
+  background-color: rgba(20, 19, 27, 0.8431372549);
+}
+section.galeria #galeria3:hover h1 {
+  color: rgb(180, 179, 179);
+}
+section.galeria #galeria3:hover h3 {
+  color: rgb(255, 255, 255);
+}
+section.galeria #galeria4 {
+  background-image: url("../img/pexels-yan-krukov-9071737.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-color: rgba(20, 19, 27, 0.5254901961);
+}
+section.galeria #galeria4:hover {
+  background-color: rgba(20, 19, 27, 0.7725490196);
+}
+section.galeria #galeria4:hover h1 {
+  color: #ccc;
+}
+section.galeria #galeria4:hover h3 {
+  color: white;
 }
 
 .h2-projetos {
   text-align: center;
+  margin: 0 auto;
+  font-size: 2em;
+  width: 80%;
   padding: 10px;
   font-family: Arial, Helvetica, sans-serif;
   color: #d4c8d6;
@@ -191,7 +239,7 @@ div.galeria-img {
 
 footer {
   display: flex;
-  padding: 15px 0px;
+  padding: 10px 0px;
   background-color: #141414;
   text-align: center;
   align-items: center;
@@ -201,6 +249,7 @@ footer h2 {
   font-family: Arial, Helvetica, sans-serif;
   color: #d4c8d6;
   font-weight: normal;
+  font-size: 14px;
 }
 footer h2 a {
   text-decoration: none;
@@ -222,6 +271,13 @@ footer h2 a:hover {
   section.banner .img-section {
     display: none;
   }
+  section.galeria {
+    margin-left: -20px;
+  }
+  section.galeria .ul-galeria {
+    -moz-columns: 1;
+         columns: 1;
+  }
   .tecnologias, .projetos {
     display: flex;
     flex-direction: column;
@@ -234,30 +290,5 @@ footer h2 a:hover {
   }
   .tecnologias .part h4, .projetos .part h4 {
     width: 100%;
-  }
-  .galeria {
-    display: flex;
-    flex-direction: column;
-  }
-  .galeria #reverse {
-    flex-direction: column-reverse;
-  }
-  .galeria .galerias {
-    display: flex;
-    flex-direction: column;
-  }
-  .galeria .galerias .galeria-img {
-    height: 450px;
-    width: 100%;
-    border-top: 6px solid #303030;
-  }
-  .galeria .galerias .galeria-text {
-    width: 100%;
-    padding: 10px 20px 10px 20px;
-  }
-}
-@media screen and (max-width: 800px) {
-  .galeria > .galerias > .galeria-img {
-    height: 250px;
   }
 }/*# sourceMappingURL=style.css.map */
