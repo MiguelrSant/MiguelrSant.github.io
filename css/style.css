@@ -30,7 +30,7 @@ header {
   justify-content: center;
 }
 
-.logo > svg {
+.logo > img {
   width: 50px;
   height: 50px;
 }
@@ -170,10 +170,10 @@ section.galeria .galerias h3 {
   color: #ccc;
 }
 section.galeria #galeria1 {
-  background-image: url("../img/pexels-yan-krukov-9072208.jpg");
+  background-image: url("../img/pc-gamer.svg");
   background-position: center center;
   background-size: cover;
-  background-color: rgba(20, 19, 27, 0.4941176471);
+  background-color: rgba(20, 19, 27, 0.6509803922);
 }
 section.galeria #galeria1:hover {
   background-color: rgba(20, 19, 27, 0.6509803922);
@@ -185,7 +185,7 @@ section.galeria #galeria1:hover h3 {
   color: white;
 }
 section.galeria #galeria2 {
-  background-image: url("../img/pexels-cottonbro-6153741.jpg");
+  background-image: url("../img/mao-robotica.svg");
   background-position: center center;
   background-size: cover;
 }
@@ -199,7 +199,7 @@ section.galeria #galeria2:hover h3 {
   color: white;
 }
 section.galeria #galeria3 {
-  background-image: url("../img/pexels-junior-teixeira-2047905.jpg");
+  background-image: url("../img/mec.svg");
   background-position: center center;
 }
 section.galeria #galeria3:hover {
@@ -212,7 +212,7 @@ section.galeria #galeria3:hover h3 {
   color: rgb(255, 255, 255);
 }
 section.galeria #galeria4 {
-  background-image: url("../img/pexels-yan-krukov-9071737.jpg");
+  background-image: url("../img/gamer.svg");
   background-position: center center;
   background-size: cover;
   background-color: rgba(20, 19, 27, 0.5254901961);
@@ -271,12 +271,20 @@ footer h2 a:hover {
   section.banner .img-section {
     display: none;
   }
+  .projetos {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
   section.galeria {
     margin-left: -20px;
   }
   section.galeria .ul-galeria {
     -moz-columns: 1;
          columns: 1;
+  }
+  section.galeria .galerias {
+    height: 400px;
+    margin-bottom: 20px;
   }
   .tecnologias, .projetos {
     display: flex;
