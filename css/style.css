@@ -58,7 +58,7 @@ section.banner .text p {
   width: 90%;
   line-height: 27px;
 }
-section.banner .text .btn1 {
+section.banner .text .btn {
   display: flex;
   margin-top: 40px;
   border: 1px solid #8905aa;
@@ -76,7 +76,7 @@ section.banner .text .btn1 {
   cursor: pointer;
   background-color: #8905aa;
 }
-section.banner .text .btn1:hover {
+section.banner .text .btn:hover {
   background-color: #73048f;
 }
 section.banner .img-section {
