@@ -20,7 +20,7 @@ export default function Contact(){
                     <input type="text" name="name" id="Name"  placeholder="NAME" autoComplete="off" required/>
                     <input type="email" name="email" id="Email"  placeholder="EMAIL" required/>
                     <input type="text" className="mensage" name="message" id="Message" placeholder="MESSAGE" required/>
-                    <input type="hidden" name="redirectTo" value="https://miguelrsant.github.io" />
+                    <input type="hidden" name="redirectTo" value="https://miguelrsant.vercel.app" />
                     <input type="submit" value="SEND MESSAGE" />
                 </form>
             </div>
