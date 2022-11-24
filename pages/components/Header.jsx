@@ -35,7 +35,7 @@ export default function Header(){
                     </a>
                 </li>
                 <li className="link">
-                    <a href="https://wa.me/16993423284" target={'_blank'}>
+                    <a href="https://wa.me/5516993423284" target={'_blank'}>
                         <Image 
                             src={"/whatsapp-white.png"}
                             width={25}

@@ -5,7 +5,7 @@ export default function Projetos(){
         <div className='project'>
             <div className="text">
                 <h1>Project</h1>
-                <p className="btn"><a href="https://wa.me/16993423284" target={'_blank'} style={{textDecoration: 'none', color: 'rgb(161, 159, 159)'}}>CONTACT ME</a></p>
+                <p className="btn"><a href="https://wa.me/5516993423284" target={'_blank'} style={{textDecoration: 'none', color: 'rgb(161, 159, 159)'}}>CONTACT ME</a></p>
             </div>
             <ul className="projects">
                 <li id="project1">

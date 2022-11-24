@@ -75,7 +75,7 @@ div.main div.text p.text-secundario {
 div.main div#img {
   width: calc(10% + 35vh);
   height: 800px;
-  background-image: url("https://raw.githubusercontent.com/MiguelrSant/IMG/main/miguel-gray.webp");
+  background-image: url("../public/miguel-gray.webp");
   background-size: cover;
   background-position: center;
   z-index: -2;
@@ -254,10 +254,13 @@ ul.projects p {
   }
   ul.projects .image-project {
     width: 90vw;
-    height: 25vh;
+    height: 35vh;
   }
 }
 @media screen and (max-width: 750px) {
+  div.main div#img {
+    width: 85vw;
+  }
   header.header {
     flex-direction: column;
   }

@@ -58,7 +58,7 @@ export default function Contact(){
                     </a>
                 </li>
                 <li className="link">
-                    <a href="https://wa.me/16993423284" target={'_blank'}>
+                    <a href="https://wa.me/5516993423284" target={'_blank'}>
                         <Image 
                             src={"/whatsapp.png"}
                             width={25}
