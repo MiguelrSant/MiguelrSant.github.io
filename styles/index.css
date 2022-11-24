@@ -75,7 +75,7 @@ div.main div.text p.text-secundario {
 div.main div#img {
   width: calc(10% + 35vh);
   height: 800px;
-  background-image: url("../public/miguel-gray.webp");
+  background-image: url("https://raw.githubusercontent.com/MiguelrSant/IMG/main/miguel-gray.webp");
   background-size: cover;
   background-position: center;
   z-index: -2;
