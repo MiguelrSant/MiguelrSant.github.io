@@ -1,3 +1,4 @@
+import Image from "next/image"
 export default function Main(){
     return(
         <div className="main">
@@ -11,7 +12,6 @@ export default function Main(){
                 <p className="btn"><a href="https://wa.me/5516993423284" target={'_blank'}  style={{textDecoration: 'none', color: 'rgb(161, 159, 159)'}}>CONTACT ME</a></p>
             </div>
             <div className="img" id="img">
-
             </div>
         </div>
     )

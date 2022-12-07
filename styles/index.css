@@ -45,7 +45,7 @@ div.main {
   max-width: 1600px;
   color: white;
   margin: 0 auto;
-  padding: 15px;
+  padding-left: 5vw;
   padding-bottom: 50px;
   font-family: Arial, Helvetica, sans-serif;
   border-bottom: 2px solid white;
@@ -75,7 +75,7 @@ div.main div.text p.text-secundario {
 div.main div#img {
   width: calc(10% + 35vh);
   height: 800px;
-  background-image: url("https://raw.githubusercontent.com/MiguelrSant/IMG/main/miguel-gray.webp");
+  background-image: url("/zunzunzum.webp");
   background-size: cover;
   background-position: center;
   z-index: -2;
@@ -177,6 +177,7 @@ ul.projects p {
   margin-top: 70px;
   padding: 80px 20px;
   border-bottom: 2px solid rgb(194, 194, 194);
+  padding-left: 3vw;
 }
 .contact-global div.contact {
   width: 50%;
@@ -254,13 +255,10 @@ ul.projects p {
   }
   ul.projects .image-project {
     width: 90vw;
-    height: 35vh;
+    height: 25vh;
   }
 }
 @media screen and (max-width: 750px) {
-  div.main div#img {
-    width: 85vw;
-  }
   header.header {
     flex-direction: column;
   }
